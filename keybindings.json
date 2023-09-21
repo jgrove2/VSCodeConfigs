@@ -1,0 +1,34 @@
+// Place your key bindings in this file to override the defaults
+[
+	//Project Manager
+	{
+		"key": "ctrl+o",
+		"command": "projectManager.listGitProjects#sideBarGit"
+	},
+	//Expand-region
+	{
+		"key": "ctrl+=",
+		"command": "expand_region",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+-",
+		"command": "undo_expand_region",
+		"when": "editorTextFocus && editorHasSelection"
+	},
+	//Turbo Console Log
+	{
+		"key": "ctrl+i",
+		"command": "turboConsoleLog.displayMessage"
+	},
+	//File Explorer
+	{
+		"key": "ctrl+e",
+		"command": "workbench.files.action.focusFilesExplorer",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.toggleSidebarVisibility"
+	}
+]

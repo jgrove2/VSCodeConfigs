@@ -1,0 +1,112 @@
+{
+    // Editor settings
+    "breadcrumbs.enabled": false,
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "editor.lineNumbers": "on",
+    "editor.formatOnSave": true,
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.hover.enabled": true,
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace",
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "explorer.compactFolders": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.linkedEditing": true,
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports": true,
+    },
+    // Zen Mode
+    "zenMode.hideTabs": false,
+    "zenMode.hideLineNumbers": false,
+    // Terminal Settings
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.cursorBlinking": true,
+    // Workbench settings
+    "workbench.editor.showTabs": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.list.keyboardNavigation": "simple",
+    "workbench.list.automaticKeyboardNavigation": false,
+    "workbench.settings.editor": "json",
+    // Vim General Settings
+    "vim.leader": "<space>",
+    "vim.foldfix": false,
+    "vim.useSystemClipboard": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+    "vim.highlightedyank.textColor": "white",
+    // Vim Normal Mode
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                ":w!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                ":q!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "x"
+            ],
+            "commands": [
+                ":x!"
+            ]
+        },
+        {
+            "before": [
+                "<c-a>"
+            ],
+            "after": [
+                "g",
+                "g",
+                "V",
+                "G"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "i"
+            ],
+            "commands": [
+                "extension.toggleBool"
+            ]
+        },
+        {
+            "before": [
+                "<c-k>"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        },
+        {
+            "before": [
+                "<c-j>"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+    ],
+    // Project Manager
+    "projectManager.git.baseFolders": [
+        "/home/justin/ProjectArea"
+    ],
+    "projectManager.sortList": "Recent",
+}
